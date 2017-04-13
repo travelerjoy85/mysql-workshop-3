@@ -49,3 +49,11 @@ CREATE TABLE ElectronicMail (
 	type ENUM('home', 'work', 'other'),
 	content VARCHAR(255)
 );
+
+
+SELECT 
+	
+FROM
+	Entry
+	JOIN AddressBook ON Entry.id=AddressBook.id
+WHERE name="Pharetra Ut Limited";
